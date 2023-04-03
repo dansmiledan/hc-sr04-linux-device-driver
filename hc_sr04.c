@@ -185,7 +185,7 @@ static int hc_sr04_init(void)
 
     if (gpio_is_valid(GPIO_ECHO) == false)
     {
-        pr_err("[HC-SR04]: GPIO %d is not valid\n", GPIO_TRIGGER);
+        pr_err("[HC-SR04]: GPIO %d is not valid\n", GPIO_ECHO);
         return -1;
     }
     
